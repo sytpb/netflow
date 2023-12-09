@@ -20,3 +20,7 @@ Pionner: refers to the pioneer mode, the packet capture conditions need to be sp
 
 ## 5. GUI 
 ![image](https://github.com/sytpb/netflow/assets/12178686/4b35a19a-06dd-4d88-aac7-8903894b356d)
+
+
+## 6. Reference
+This software uses the pcap open source library, iksemel XML open source library, MFC interface library, and draws on the print output and iksemel Base64 related functions in the source code tcpdump.
