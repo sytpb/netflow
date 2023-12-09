@@ -1,0 +1,11 @@
+
+
+gcc -o gettcp_s -lpcap -static 
+
+gcc -o tt get_tcp_code.c -L./lib -I./include -lpcap
+
+
+gcc -o tt get_tcp_code.c -L./lib -I./include -lpcap -static
+
+
+

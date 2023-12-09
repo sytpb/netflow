@@ -1,0 +1,432 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ASCII_LINELENGTH	cdogNose.c	83;"	d	file:
+AimMsg	cdog.h	/^}AimMsg,*pAimMsg;$/;"	v	typeref:struct:tagAimMsg
+CAT2DOGIOMSG	cdogcore.h	/^}CAT2DOGIOMSG,*PCAT2DOGIOMSG;$/;"	t	typeref:struct:tagCAT2DOGIOMSG
+CAT2DOGMSGNUM	cdogcore.h	103;"	d
+CDOGCORE_H	cdogcore.h	2;"	d
+CLIENTINFO	cdogcore.h	/^}CLIENTINFO,*PCLIENTINFO;$/;"	t	typeref:struct:tagCLIENTINFO
+CLIENTNUM	cdogcore.h	101;"	d
+CLIENTSOCKETSTATUS	cdogcore.h	/^}CLIENTSOCKETSTATUS;$/;"	t	typeref:enum:__anon1
+CLIENTSTATUS	cdogEar.c	/^}CLIENTSTATUS;$/;"	t	typeref:enum:__anon5	file:
+CLIENTSTATUS	cdogcore.h	/^}CLIENTSTATUS;$/;"	t	typeref:enum:__anon2
+CLIENTTYPE	cdogcore.h	/^}CLIENTTYPE;$/;"	t	typeref:enum:__anon3
+CLIENT_UNKNOWN	cdogcore.h	/^	CLIENT_UNKNOWN,$/;"	e	enum:__anon3
+CLIENT_USER_ADMIN	cdogcore.h	/^	CLIENT_USER_ADMIN$/;"	e	enum:__anon3
+CLIENT_USER_CAP	cdogcore.h	/^	CLIENT_USER_CAP,$/;"	e	enum:__anon3
+CLIENT_USER_HOOKER	cdogcore.h	/^	CLIENT_USER_HOOKER,$/;"	e	enum:__anon3
+CatToDogIOMsg	cdogEar.c	/^PCAT2DOGIOMSG	CatToDogIOMsg[CAT2DOGMSGNUM];$/;"	v
+CliRecSocketBuf	cdogEar.c	/^static char CliRecSocketBuf[256*1024];$/;"	v	file:
+ClientInfo	cdogEar.c	/^CLIENTINFO	ClientInfo[CLIENTNUM];$/;"	v
+ClientRecSndThread	cdogEar.c	/^unsigned int ClientRecSndThread(void *v)$/;"	f
+CreateSocketListen	cdogEar.c	/^int  CreateSocketListen(int * fd, char *ip, unsigned short port,int Nonblock)$/;"	f
+DECLS_BEGIN	typedef.h	49;"	d
+DECLS_BEGIN	typedef.h	52;"	d
+DECLS_END	typedef.h	50;"	d
+DECLS_END	typedef.h	53;"	d
+DEVICE_TYPE_CAMERA	cdogcore.h	119;"	d
+DEVICE_TYPE_CCS	cdogcore.h	125;"	d
+DEVICE_TYPE_CLIENT	cdogcore.h	124;"	d
+DEVICE_TYPE_DVR	cdogcore.h	121;"	d
+DEVICE_TYPE_DVS	cdogcore.h	120;"	d
+DEVICE_TYPE_DVS_DVR	cdogcore.h	129;"	d
+DEVICE_TYPE_GATEWAY	cdogcore.h	123;"	d
+DEVICE_TYPE_MATRIX	cdogcore.h	126;"	d
+DEVICE_TYPE_MONITOR	cdogcore.h	128;"	d
+DEVICE_TYPE_RECORDS	cdogcore.h	122;"	d
+DEVICE_TYPE_SPLITTER	cdogcore.h	127;"	d
+DEVICE_TYPE_UNKNOW	cdogcore.h	118;"	d
+DOG2CATMSG	cdogcore.h	/^}DOG2CATMSG,*PDOG2CATMSG;$/;"	t	typeref:struct:__anon4
+DOG2CATMSGNUM	cdogcore.h	107;"	d
+DOG_INTERFACE_H	cdog.h	2;"	d
+Dbg	cdogEar.c	20;"	d	file:
+FIFO_H	fifo.h	2;"	d
+FifoDogMsg	cdogEar.c	/^FifoRing  FifoDogMsg;$/;"	v
+FifoDogMsgFree	cdogEar.c	/^FifoRing  FifoDogMsgFree;$/;"	v
+FifoRing	fifo.c	/^}FifoRing;$/;"	t	typeref:struct:_FifoRing	file:
+FifoRing	fifo.h	/^typedef struct _FifoRing FifoRing;$/;"	t	typeref:struct:_FifoRing
+FreeClientList	cdogEar.c	/^LISTHEAD	FreeClientList;$/;"	v
+FunFreeObj	cdogcore.h	/^	void(*FunFreeObj)(struct tagCLIENTINFO*);$/;"	m	struct:tagCLIENTINFO
+GET_STREAM_PTR	cdogio.c	7;"	d	file:
+HEXDUMP_BYTES_PER_LINE	cdogNose.c	84;"	d	file:
+HEXDUMP_HEXSTUFF_PER_LINE	cdogNose.c	87;"	d	file:
+HEXDUMP_HEXSTUFF_PER_SHORT	cdogNose.c	86;"	d	file:
+HEXDUMP_SHORTS_PER_LINE	cdogNose.c	85;"	d	file:
+HSTREAM	stream.h	/^typedef		int *		HSTREAM;$/;"	t
+IKSEMEL_H	iksemel.h	8;"	d
+IKS_ASYNC_CLOSED	iksemel.h	/^	IKS_ASYNC_CLOSED,$/;"	e	enum:iksasyncevents
+IKS_ASYNC_CONNECTED	iksemel.h	/^	IKS_ASYNC_CONNECTED,$/;"	e	enum:iksasyncevents
+IKS_ASYNC_ERROR	iksemel.h	/^	IKS_ASYNC_ERROR$/;"	e	enum:iksasyncevents
+IKS_ASYNC_READ	iksemel.h	/^	IKS_ASYNC_READ,$/;"	e	enum:iksasyncevents
+IKS_ASYNC_RESOLVED	iksemel.h	/^	IKS_ASYNC_RESOLVED,$/;"	e	enum:iksasyncevents
+IKS_ASYNC_WRITE	iksemel.h	/^	IKS_ASYNC_WRITE,$/;"	e	enum:iksasyncevents
+IKS_ASYNC_WRITTEN	iksemel.h	/^	IKS_ASYNC_WRITTEN,$/;"	e	enum:iksasyncevents
+IKS_ATTRIBUTE	iksemel.h	/^	IKS_ATTRIBUTE,$/;"	e	enum:ikstype
+IKS_BADXML	iksemel.h	/^	IKS_BADXML,$/;"	e	enum:ikserror
+IKS_CDATA	iksemel.h	/^	IKS_CDATA$/;"	e	enum:ikstype
+IKS_CLOSE	iksemel.h	/^	IKS_CLOSE,$/;"	e	enum:ikstagtype
+IKS_FILE_NOACCESS	iksemel.h	/^	IKS_FILE_NOACCESS,$/;"	e	enum:iksfileerror
+IKS_FILE_NOFILE	iksemel.h	/^	IKS_FILE_NOFILE = 4,$/;"	e	enum:iksfileerror
+IKS_FILE_RWERR	iksemel.h	/^	IKS_FILE_RWERR$/;"	e	enum:iksfileerror
+IKS_FILTER_EAT	iksemel.h	/^	IKS_FILTER_EAT$/;"	e	enum:iksfilterret
+IKS_FILTER_PASS	iksemel.h	/^	IKS_FILTER_PASS,$/;"	e	enum:iksfilterret
+IKS_HOOK	iksemel.h	/^	IKS_HOOK$/;"	e	enum:ikserror
+IKS_ID_FULL	iksemel.h	268;"	d
+IKS_ID_PARTIAL	iksemel.h	267;"	d
+IKS_ID_RESOURCE	iksemel.h	266;"	d
+IKS_ID_SERVER	iksemel.h	265;"	d
+IKS_ID_USER	iksemel.h	264;"	d
+IKS_JABBER_PORT	iksemel.h	203;"	d
+IKS_MAX_USED_BUF	iksemel.h	17;"	d
+IKS_NET_DROPPED	iksemel.h	/^	IKS_NET_DROPPED,$/;"	e	enum:iksneterror
+IKS_NET_NOCONN	iksemel.h	/^	IKS_NET_NOCONN,$/;"	e	enum:iksneterror
+IKS_NET_NODNS	iksemel.h	/^	IKS_NET_NODNS = 4,$/;"	e	enum:iksneterror
+IKS_NET_NOSOCK	iksemel.h	/^	IKS_NET_NOSOCK,$/;"	e	enum:iksneterror
+IKS_NET_NOTSUPP	iksemel.h	/^	IKS_NET_NOTSUPP,$/;"	e	enum:iksneterror
+IKS_NET_RWERR	iksemel.h	/^	IKS_NET_RWERR,$/;"	e	enum:iksneterror
+IKS_NET_TLSFAIL	iksemel.h	/^	IKS_NET_TLSFAIL,$/;"	e	enum:iksneterror
+IKS_NET_UNKNOWN	iksemel.h	/^	IKS_NET_UNKNOWN$/;"	e	enum:iksneterror
+IKS_NODE_ERROR	iksemel.h	/^	IKS_NODE_ERROR,$/;"	e	enum:iksnodetype
+IKS_NODE_NORMAL	iksemel.h	/^	IKS_NODE_NORMAL,$/;"	e	enum:iksnodetype
+IKS_NODE_START	iksemel.h	/^	IKS_NODE_START,$/;"	e	enum:iksnodetype
+IKS_NODE_STOP	iksemel.h	/^	IKS_NODE_STOP$/;"	e	enum:iksnodetype
+IKS_NOMEM	iksemel.h	/^	IKS_NOMEM,$/;"	e	enum:ikserror
+IKS_NONE	iksemel.h	/^	IKS_NONE = 0,$/;"	e	enum:ikstype
+IKS_NS_ADMIN	iksemel.h	250;"	d
+IKS_NS_AGENT	iksemel.h	238;"	d
+IKS_NS_AGENTS	iksemel.h	239;"	d
+IKS_NS_AUTH	iksemel.h	232;"	d
+IKS_NS_AUTH_0K	iksemel.h	233;"	d
+IKS_NS_BROWSE	iksemel.h	240;"	d
+IKS_NS_CLIENT	iksemel.h	230;"	d
+IKS_NS_CONFERENCE	iksemel.h	241;"	d
+IKS_NS_DELAY	iksemel.h	242;"	d
+IKS_NS_ENCRYPTED	iksemel.h	255;"	d
+IKS_NS_ENVELOPE	iksemel.h	256;"	d
+IKS_NS_EVENT	iksemel.h	257;"	d
+IKS_NS_EXPIRE	iksemel.h	258;"	d
+IKS_NS_FILTER	iksemel.h	251;"	d
+IKS_NS_GATEWAY	iksemel.h	252;"	d
+IKS_NS_LAST	iksemel.h	253;"	d
+IKS_NS_OFFLINE	iksemel.h	237;"	d
+IKS_NS_OOB	iksemel.h	248;"	d
+IKS_NS_PRIVATE	iksemel.h	246;"	d
+IKS_NS_REGISTER	iksemel.h	234;"	d
+IKS_NS_ROSTER	iksemel.h	235;"	d
+IKS_NS_SEARCH	iksemel.h	247;"	d
+IKS_NS_SERVER	iksemel.h	231;"	d
+IKS_NS_SIGNED	iksemel.h	254;"	d
+IKS_NS_TIME	iksemel.h	244;"	d
+IKS_NS_VCARD	iksemel.h	245;"	d
+IKS_NS_VERSION	iksemel.h	243;"	d
+IKS_NS_XHTML	iksemel.h	259;"	d
+IKS_NS_XMPP_BIND	iksemel.h	261;"	d
+IKS_NS_XMPP_SASL	iksemel.h	260;"	d
+IKS_NS_XMPP_SESSION	iksemel.h	262;"	d
+IKS_NS_XOOB	iksemel.h	249;"	d
+IKS_NS_XROSTER	iksemel.h	236;"	d
+IKS_OK	iksemel.h	/^	IKS_OK = 0,$/;"	e	enum:ikserror
+IKS_OPEN	iksemel.h	/^	IKS_OPEN,$/;"	e	enum:ikstagtype
+IKS_PAK_IQ	iksemel.h	/^	IKS_PAK_IQ,$/;"	e	enum:ikspaktype
+IKS_PAK_MESSAGE	iksemel.h	/^	IKS_PAK_MESSAGE,$/;"	e	enum:ikspaktype
+IKS_PAK_NONE	iksemel.h	/^	IKS_PAK_NONE = 0,$/;"	e	enum:ikspaktype
+IKS_PAK_PRESENCE	iksemel.h	/^	IKS_PAK_PRESENCE,$/;"	e	enum:ikspaktype
+IKS_PAK_S10N	iksemel.h	/^	IKS_PAK_S10N$/;"	e	enum:ikspaktype
+IKS_PARSE	cdogio.c	5;"	d	file:
+IKS_RULE_DONE	iksemel.h	349;"	d
+IKS_RULE_FROM	iksemel.h	353;"	d
+IKS_RULE_FROM_PARTIAL	iksemel.h	354;"	d
+IKS_RULE_ID	iksemel.h	350;"	d
+IKS_RULE_NS	iksemel.h	355;"	d
+IKS_RULE_SUBTYPE	iksemel.h	352;"	d
+IKS_RULE_TYPE	iksemel.h	351;"	d
+IKS_SASL_DIGEST_MD5	iksemel.h	/^	IKS_SASL_DIGEST_MD5$/;"	e	enum:ikssasltype
+IKS_SASL_PLAIN	iksemel.h	/^	IKS_SASL_PLAIN,$/;"	e	enum:ikssasltype
+IKS_SHOW_AVAILABLE	iksemel.h	/^	IKS_SHOW_AVAILABLE,$/;"	e	enum:ikshowtype
+IKS_SHOW_AWAY	iksemel.h	/^	IKS_SHOW_AWAY,$/;"	e	enum:ikshowtype
+IKS_SHOW_CHAT	iksemel.h	/^	IKS_SHOW_CHAT,$/;"	e	enum:ikshowtype
+IKS_SHOW_DND	iksemel.h	/^	IKS_SHOW_DND$/;"	e	enum:ikshowtype
+IKS_SHOW_UNAVAILABLE	iksemel.h	/^	IKS_SHOW_UNAVAILABLE = 0,$/;"	e	enum:ikshowtype
+IKS_SHOW_XA	iksemel.h	/^	IKS_SHOW_XA,$/;"	e	enum:ikshowtype
+IKS_SINGLE	iksemel.h	/^	IKS_SINGLE$/;"	e	enum:ikstagtype
+IKS_STREAM_BIND	iksemel.h	272;"	d
+IKS_STREAM_SASL_MD5	iksemel.h	274;"	d
+IKS_STREAM_SASL_PLAIN	iksemel.h	273;"	d
+IKS_STREAM_SESSION	iksemel.h	271;"	d
+IKS_STREAM_STARTTLS	iksemel.h	270;"	d
+IKS_TAG	iksemel.h	/^	IKS_TAG,$/;"	e	enum:ikstype
+IKS_TRANSPORT_V1	iksemel.h	163;"	d
+IKS_TYPE_AVAILABLE	iksemel.h	/^	IKS_TYPE_AVAILABLE,$/;"	e	enum:iksubtype
+IKS_TYPE_CHAT	iksemel.h	/^	IKS_TYPE_CHAT,$/;"	e	enum:iksubtype
+IKS_TYPE_ERROR	iksemel.h	/^	IKS_TYPE_ERROR,$/;"	e	enum:iksubtype
+IKS_TYPE_GET	iksemel.h	/^	IKS_TYPE_GET,$/;"	e	enum:iksubtype
+IKS_TYPE_GROUPCHAT	iksemel.h	/^	IKS_TYPE_GROUPCHAT,$/;"	e	enum:iksubtype
+IKS_TYPE_HEADLINE	iksemel.h	/^	IKS_TYPE_HEADLINE,$/;"	e	enum:iksubtype
+IKS_TYPE_NONE	iksemel.h	/^	IKS_TYPE_NONE = 0,$/;"	e	enum:iksubtype
+IKS_TYPE_PROBE	iksemel.h	/^	IKS_TYPE_PROBE,$/;"	e	enum:iksubtype
+IKS_TYPE_RESULT	iksemel.h	/^	IKS_TYPE_RESULT,$/;"	e	enum:iksubtype
+IKS_TYPE_SET	iksemel.h	/^	IKS_TYPE_SET,$/;"	e	enum:iksubtype
+IKS_TYPE_SUBSCRIBE	iksemel.h	/^	IKS_TYPE_SUBSCRIBE,$/;"	e	enum:iksubtype
+IKS_TYPE_SUBSCRIBED	iksemel.h	/^	IKS_TYPE_SUBSCRIBED,$/;"	e	enum:iksubtype
+IKS_TYPE_UNAVAILABLE	iksemel.h	/^	IKS_TYPE_UNAVAILABLE$/;"	e	enum:iksubtype
+IKS_TYPE_UNSUBSCRIBE	iksemel.h	/^	IKS_TYPE_UNSUBSCRIBE,$/;"	e	enum:iksubtype
+IKS_TYPE_UNSUBSCRIBED	iksemel.h	/^	IKS_TYPE_UNSUBSCRIBED,$/;"	e	enum:iksubtype
+INIT_DOG_STREAM	cdogEar.c	22;"	d	file:
+INIT_LIST_HEAD	list.h	/^void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+IOProcessAdminMsg	cdogio.c	/^int IOProcessAdminMsg(void *data,int type,iks *node)$/;"	f
+IOProcessCatMsg	cdogio.c	/^int IOProcessCatMsg(void *data,int type,iks *node)$/;"	f
+IOProcessParser	cdogio.c	/^void IOProcessParser(PCLIENTINFO *pClientInfo)$/;"	f
+IPAddress	cdogcore.h	/^	unsigned long		IPAddress;$/;"	m	struct:tagCLIENTINFO
+InitServer	cdogEar.c	/^int InitServer()$/;"	f
+LISTHEAD	list.h	/^typedef struct list_head LISTHEAD,*PLISTHEAD;$/;"	t	typeref:struct:list_head
+LIST_HEAD	list.h	16;"	d
+LIST_HEAD_INIT	list.h	14;"	d
+ListSendMsg	cdogcore.h	/^	struct	list_head	ListSendMsg;$/;"	m	struct:tagCLIENTINFO	typeref:struct:tagCLIENTINFO::list_head
+Load_Config	cdogEar.c	/^int Load_Config()$/;"	f
+MIN_MALLOC_LEN	stream.c	5;"	d	file:
+MSGINITSIZE	cdogcore.h	105;"	d
+NR	fifo.c	112;"	d	file:
+Object	cdogcore.h	/^	void*				Object;$/;"	m	struct:tagCLIENTINFO
+PCAT2DOGIOMSG	cdogcore.h	/^}CAT2DOGIOMSG,*PCAT2DOGIOMSG;$/;"	t	typeref:struct:tagCAT2DOGIOMSG
+PCLIENTINFO	cdogcore.h	/^typedef	struct tagCLIENTINFO* PCLIENTINFO;$/;"	t	typeref:struct:tagCLIENTINFO
+PCLIENTINFO	cdogcore.h	/^}CLIENTINFO,*PCLIENTINFO;$/;"	t	typeref:struct:tagCLIENTINFO
+PDOG2CATMSG	cdogcore.h	/^}DOG2CATMSG,*PDOG2CATMSG;$/;"	t	typeref:struct:__anon4
+PFifoRing	fifo.h	/^typedef struct _FifoRing* PFifoRing;$/;"	t	typeref:struct:_FifoRing
+PHSTREAM	stream.h	/^typedef		int **		PHSTREAM;$/;"	t
+PLISTHEAD	list.h	/^typedef struct list_head LISTHEAD,*PLISTHEAD;$/;"	t	typeref:struct:
+PRT_LO	cdogNose.c	94;"	d	file:
+PRT_TCP	cdogNose.c	90;"	d	file:
+PSERVER	cdogEar.c	/^}SERVER,*PSERVER;$/;"	t	typeref:struct:tagCCS	file:
+RET_FAIL	typedef.h	/^	RET_FAIL$/;"	e	enum:_Ret
+RET_INVALID_PARAMS	typedef.h	/^	RET_INVALID_PARAMS,$/;"	e	enum:_Ret
+RET_OK	typedef.h	/^	RET_OK,$/;"	e	enum:_Ret
+RET_OOM	typedef.h	/^	RET_OOM,$/;"	e	enum:_Ret
+RET_STOP	typedef.h	/^	RET_STOP,$/;"	e	enum:_Ret
+Ret	typedef.h	/^}Ret;$/;"	t	typeref:enum:_Ret
+SAFE_FREE	typedef.h	63;"	d
+SERVER	cdogEar.c	/^}SERVER,*PSERVER;$/;"	t	typeref:struct:tagCCS	file:
+STATUS_ACCEPT	cdogcore.h	/^	STATUS_ACCEPT,$/;"	e	enum:__anon2
+STATUS_BUSY	cdogcore.h	/^	STATUS_BUSY,$/;"	e	enum:__anon2
+STATUS_ERRORLOGIN	cdogcore.h	/^	STATUS_ERRORLOGIN,$/;"	e	enum:__anon2
+STATUS_GETVSBASEINFO	cdogcore.h	/^	STATUS_GETVSBASEINFO,$/;"	e	enum:__anon2
+STATUS_GETVSDATAINFO	cdogcore.h	/^	STATUS_GETVSDATAINFO,$/;"	e	enum:__anon2
+STATUS_GETVSDECODEINFO	cdogcore.h	/^	STATUS_GETVSDECODEINFO,$/;"	e	enum:__anon2
+STATUS_GETVSSTREAMINFO	cdogcore.h	/^	STATUS_GETVSSTREAMINFO,$/;"	e	enum:__anon2
+STATUS_IDLE	cdogcore.h	/^	STATUS_IDLE,$/;"	e	enum:__anon2
+STATUS_IOCLOSEED	cdogcore.h	/^	STATUS_IOCLOSEED$/;"	e	enum:__anon2
+STATUS_IOCMDCLOSE	cdogcore.h	/^	STATUS_IOCMDCLOSE,\/\/when send all buff,recsend unit auto close it$/;"	e	enum:__anon2
+STATUS_RECBINARYDATA	cdogcore.h	/^	STATUS_RECBINARYDATA,$/;"	e	enum:__anon2
+STATUS_SENDBINARYDATA	cdogcore.h	/^	STATUS_SENDBINARYDATA,$/;"	e	enum:__anon2
+STATUS_SHUNDOWN	cdogcore.h	/^	STATUS_SHUNDOWN,$/;"	e	enum:__anon2
+STATUS_SOCKET_CLOSED	cdogEar.c	/^	STATUS_SOCKET_CLOSED=0,$/;"	e	enum:__anon5	file:
+STATUS_SOCKET_CLOSED	cdogcore.h	/^	STATUS_SOCKET_CLOSED=0,$/;"	e	enum:__anon1
+STATUS_SOCKET_CONNECT	cdogEar.c	/^	STATUS_SOCKET_CONNECT$/;"	e	enum:__anon5	file:
+STATUS_SOCKET_CONNECT	cdogcore.h	/^	STATUS_SOCKET_CONNECT$/;"	e	enum:__anon1
+STATUS_TIMEOUT1	cdogcore.h	/^	STATUS_TIMEOUT1,$/;"	e	enum:__anon2
+STATUS_TIMEOUT2	cdogcore.h	/^	STATUS_TIMEOUT2,$/;"	e	enum:__anon2
+STATUS_UNKNOWN	cdogcore.h	/^	STATUS_UNKNOWN,$/;"	e	enum:__anon2
+SetFilter	cdogNose.c	/^int SetFilter(const char*)$/;"	f
+Socket	cdogcore.h	/^	int					Socket;$/;"	m	struct:tagCLIENTINFO
+SocketListen	cdogEar.c	/^	int					SocketListen;$/;"	m	struct:tagCCS	file:
+Start	cdog.c	/^int Start()$/;"	f
+StartDogNose	cdogNose.c	/^int StartDogNose(AimMsg *paim)$/;"	f
+StartDogNoseThread	cdogNose.c	/^void *StartDogNoseThread(void *v)$/;"	f
+StartNet	cdogEar.c	/^int StartNet(void)$/;"	f
+StopDogNose	cdogNose.c	/^int StopDogNose()$/;"	f
+TIMEFMT	cdogcore.h	116;"	d
+TYPEDEF_H	typedef.h	37;"	d
+WorkClientList	cdogEar.c	/^LISTHEAD	WorkClientList;$/;"	v
+_FifoRing	fifo.c	/^typedef struct _FifoRing$/;"	s	file:
+_LINUX_LIST_H	list.h	3;"	d
+_Ret	typedef.h	/^typedef enum _Ret$/;"	g
+__STREAMLIB_H_	stream.h	2;"	d
+__list_add	list.h	/^void __list_add(struct list_head *new,$/;"	f
+__list_del	list.h	/^void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+abi_version	iksemel.h	/^	int abi_version;$/;"	m	struct:ikstransport_struct
+bpf	cdogEar.c	/^	char				bpf[32];$/;"	m	struct:tagCCS	file:
+chunk_buf	stream.c	/^		unsigned char *chunk_buf;$/;"	m	struct:tagStream	file:
+chunk_mem	stream.c	/^		unsigned char *chunk_mem;$/;"	m	struct:tagStream	file:
+chunk_ptr	stream.c	/^		unsigned char *chunk_ptr;$/;"	m	struct:tagStream	file:
+chunk_read	stream.c	/^		unsigned char *chunk_read;$/;"	m	struct:tagStream	file:
+chunk_write	stream.c	/^		unsigned char *chunk_write;$/;"	m	struct:tagStream	file:
+close	iksemel.h	/^	iksTClose *close;$/;"	m	struct:ikstransport_struct
+connect	iksemel.h	/^	iksTConnect *connect;$/;"	m	struct:ikstransport_struct
+connect_async	iksemel.h	/^	iksTConnectAsync *connect_async;$/;"	m	struct:ikstransport_struct
+copy_stream	stream.c	/^unsigned char *copy_stream (unsigned char * current, unsigned char * end,HSTREAM hstream)$/;"	f
+cstream	stream.c	/^}cstream;$/;"	t	typeref:struct:tagStream	file:
+data	fifo.c	/^	void* data[0];$/;"	m	struct:_FifoRing	file:
+data0	iksemel.h	/^	int data0;$/;"	m	struct:iksasyncevent_struct
+data1	iksemel.h	/^	int data1;$/;"	m	struct:iksasyncevent_struct
+del_stream	stream.c	/^void del_stream(HSTREAM hstream)$/;"	f
+dev	cdog.h	/^	char dev[8];		\/\/lo eth0 ..$/;"	m	struct:tagAimMsg
+endword	stream.c	/^		unsigned long endword;$/;"	m	struct:tagStream	file:
+ether_dhost	cdogNose.c	/^	u_int8_t	ether_dhost[6];$/;"	m	struct:ether_header	file:
+ether_header	cdogNose.c	/^struct ether_header$/;"	s	file:
+ether_shost	cdogNose.c	/^	u_int8_t	ether_shost[6];$/;"	m	struct:ether_header	file:
+ether_type	cdogNose.c	/^	u_int16_t	ether_type;$/;"	m	struct:ether_header	file:
+ethernet_protocol_packet_callback	cdogNose.c	/^void ethernet_protocol_packet_callback$/;"	f
+event	iksemel.h	/^	int event;$/;"	m	struct:iksasyncevent_struct
+fifo_ring_create	fifo.c	/^FifoRing* fifo_ring_create(size_t length)$/;"	f
+fifo_ring_destroy	fifo.c	/^void fifo_ring_destroy(FifoRing* thiz)$/;"	f
+fifo_ring_pop	fifo.c	/^Ret fifo_ring_pop(FifoRing* thiz, void** data)$/;"	f
+fifo_ring_push	fifo.c	/^Ret fifo_ring_push(FifoRing* thiz, void* data)    $/;"	f
+filters	cdog.h	/^	char filters[256];$/;"	m	struct:tagAimMsg
+from	iksemel.h	/^	iksid *from;$/;"	m	struct:ikspak_struct
+full	iksemel.h	/^	char *full;$/;"	m	struct:iksid_struct
+get_data_ptr	stream.c	/^unsigned char* get_data_ptr(HSTREAM hstream)$/;"	f
+hStream	cdogcore.h	/^	HSTREAM				hStream;	$/;"	m	struct:__anon4
+hStream	cdogcore.h	/^	HSTREAM			hStream;			$/;"	m	struct:tagCAT2DOGIOMSG
+hex_and_ascii_print	cdogNose.c	/^void hex_and_ascii_print(const u_char *cp,u_int length)$/;"	f
+hex_and_ascii_print_with_offset	cdogNose.c	/^hex_and_ascii_print_with_offset(register const char *ident,$/;"	f
+iCurSendLen	cdogcore.h	/^	int					iCurSendLen;$/;"	m	struct:tagCLIENTINFO
+iGrpID	cdogcore.h	/^	int					iGrpID;$/;"	m	struct:tagCLIENTINFO
+iID	cdogcore.h	/^	int					iID;$/;"	m	struct:tagCLIENTINFO
+iSessionID	cdogcore.h	/^	unsigned int		iSessionID;$/;"	m	struct:__anon4
+iSessionID	cdogcore.h	/^	unsigned int		iSessionID;$/;"	m	struct:tagCLIENTINFO
+iSessionID	cdogcore.h	/^	unsigned int	iSessionID;$/;"	m	struct:tagCAT2DOGIOMSG
+id	iksemel.h	/^	char *id;$/;"	m	struct:ikspak_struct
+iks	iksemel.h	/^typedef struct iks_struct iks;$/;"	t	typeref:struct:iks_struct
+iksAsyncNotify	iksemel.h	/^typedef int (iksAsyncNotify)(void *user_data, iksasyncevent *event);$/;"	t
+iksCDataHook	iksemel.h	/^typedef int (iksCDataHook)(void *user_data, char *data, size_t len);$/;"	t
+iksDeleteHook	iksemel.h	/^typedef void (iksDeleteHook)(void *user_data);$/;"	t
+iksFilterHook	iksemel.h	/^typedef int (iksFilterHook)(void *user_data, ikspak *pak);$/;"	t
+iksLogHook	iksemel.h	/^typedef void (iksLogHook)(void *user_data, const char *data, size_t size, int is_incoming);$/;"	t
+iksStreamHook	iksemel.h	/^typedef int (iksStreamHook)(void *user_data, int type, iks *node);$/;"	t
+iksTClose	iksemel.h	/^typedef void (iksTClose)(void *socket);$/;"	t
+iksTConnect	iksemel.h	/^typedef int (iksTConnect)(iksparser *prs, void **socketptr, const char *server, int port);$/;"	t
+iksTConnectAsync	iksemel.h	/^typedef int (iksTConnectAsync)(iksparser *prs, void **socketptr, const char *server, const char *server_name, int port, void *notify_data, iksAsyncNotify *notify_func);$/;"	t
+iksTRecv	iksemel.h	/^typedef int (iksTRecv)(void *socket, char *buffer, size_t buf_len, int timeout);$/;"	t
+iksTSend	iksemel.h	/^typedef int (iksTSend)(void *socket, const char *data, size_t len);$/;"	t
+iksTagHook	iksemel.h	/^typedef int (iksTagHook)(void *user_data, char *name, char **atts, int type);$/;"	t
+iksasyncevent	iksemel.h	/^} iksasyncevent;$/;"	t	typeref:struct:iksasyncevent_struct
+iksasyncevent_struct	iksemel.h	/^typedef struct iksasyncevent_struct {$/;"	s
+iksasyncevents	iksemel.h	/^enum iksasyncevents {$/;"	g
+ikserror	iksemel.h	/^enum ikserror {$/;"	g
+iksfileerror	iksemel.h	/^enum iksfileerror {$/;"	g
+iksfilter	iksemel.h	/^typedef struct iksfilter_struct iksfilter;$/;"	t	typeref:struct:iksfilter_struct
+iksfilterret	iksemel.h	/^enum iksfilterret {$/;"	g
+iksha	iksemel.h	/^typedef struct iksha_struct iksha;$/;"	t	typeref:struct:iksha_struct
+ikshowtype	iksemel.h	/^enum ikshowtype {$/;"	g
+iksid	iksemel.h	/^} iksid;$/;"	t	typeref:struct:iksid_struct
+iksid_struct	iksemel.h	/^typedef struct iksid_struct {$/;"	s
+iksmd5	iksemel.h	/^typedef struct iksmd5_struct iksmd5;$/;"	t	typeref:struct:iksmd5_struct
+iksneterror	iksemel.h	/^enum iksneterror {$/;"	g
+iksnodetype	iksemel.h	/^enum iksnodetype {$/;"	g
+ikspak	iksemel.h	/^} ikspak;$/;"	t	typeref:struct:ikspak_struct
+ikspak_struct	iksemel.h	/^typedef struct ikspak_struct {$/;"	s
+ikspaktype	iksemel.h	/^enum ikspaktype {$/;"	g
+iksparser	iksemel.h	/^typedef struct iksparser_struct  iksparser;$/;"	t	typeref:struct:iksparser_struct
+iksrule	iksemel.h	/^typedef struct iksrule_struct iksrule;$/;"	t	typeref:struct:iksrule_struct
+ikssasltype	iksemel.h	/^enum ikssasltype {$/;"	g
+ikstack	iksemel.h	/^typedef struct ikstack_struct ikstack;$/;"	t	typeref:struct:ikstack_struct
+ikstagtype	iksemel.h	/^enum ikstagtype {$/;"	g
+ikstransport	iksemel.h	/^} ikstransport;$/;"	t	typeref:struct:ikstransport_struct
+ikstransport_struct	iksemel.h	/^typedef const struct ikstransport_struct {$/;"	s
+ikstype	iksemel.h	/^enum ikstype {$/;"	g
+iksubtype	iksemel.h	/^enum iksubtype {$/;"	g
+in_addr	cdogNose.c	/^struct in_addr$/;"	s	file:
+in_addr_t	cdogNose.c	/^typedef u_int32_t	in_addr_t;$/;"	t	file:
+init_stream	stream.c	/^HSTREAM init_stream(unsigned long size)$/;"	f
+ip_checksum	cdogNose.c	/^	u_int16_t		ip_checksum;$/;"	m	struct:ip_header	file:
+ip_destination_address	cdogNose.c	/^	struct in_addr	ip_destination_address;$/;"	m	struct:ip_header	typeref:struct:ip_header::in_addr	file:
+ip_header	cdogNose.c	/^struct ip_header$/;"	s	file:
+ip_header_length	cdogNose.c	/^	u_int8_t		ip_version:4,ip_header_length:4;$/;"	m	struct:ip_header	file:
+ip_id	cdogNose.c	/^	u_int16_t		ip_id;$/;"	m	struct:ip_header	file:
+ip_length	cdogNose.c	/^	u_int16_t		ip_length;$/;"	m	struct:ip_header	file:
+ip_off	cdogNose.c	/^	u_int16_t		ip_off;$/;"	m	struct:ip_header	file:
+ip_protocol	cdogNose.c	/^	u_int8_t		ip_protocol;$/;"	m	struct:ip_header	file:
+ip_protocol_packet_callback	cdogNose.c	/^void ip_protocol_packet_callback$/;"	f
+ip_souce_address	cdogNose.c	/^	struct in_addr	ip_souce_address;$/;"	m	struct:ip_header	typeref:struct:ip_header::in_addr	file:
+ip_tos_taowenliu	cdogNose.c	/^	u_int8_t		ip_tos_taowenliu;$/;"	m	struct:ip_header	file:
+ip_ttl	cdogNose.c	/^	u_int8_t		ip_ttl;$/;"	m	struct:ip_header	file:
+ip_version	cdogNose.c	/^	u_int8_t		ip_version:4,ip_header_length:4;$/;"	m	struct:ip_header	file:
+lIPPort	cdogcore.h	/^	unsigned long		lIPPort;\/*ushort type convert*\/$/;"	m	struct:tagCLIENTINFO
+lSocketStatus	cdogcore.h	/^	CLIENTSOCKETSTATUS  lSocketStatus;$/;"	m	struct:tagCLIENTINFO
+lStatus	cdogcore.h	/^	CLIENTSTATUS 		lStatus;$/;"	m	struct:tagCLIENTINFO
+lType	cdogcore.h	/^	CLIENTTYPE			lType;$/;"	m	struct:tagCLIENTINFO
+length	fifo.c	/^	size_t length;$/;"	m	struct:_FifoRing	file:
+list	cdogcore.h	/^	struct	list_head	list;$/;"	m	struct:__anon4	typeref:struct:__anon4::list_head
+list	cdogcore.h	/^	struct	list_head	list;$/;"	m	struct:tagCLIENTINFO	typeref:struct:tagCLIENTINFO::list_head
+list_add	list.h	/^void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	list.h	/^void list_del(struct list_head *entry)$/;"	f
+list_del_init	list.h	/^void list_del_init(struct list_head *entry)$/;"	f
+list_empty	list.h	/^int list_empty(const struct list_head *head)$/;"	f
+list_entry	list.h	223;"	d
+list_for_each	list.h	203;"	d
+list_for_each_safe	list.h	213;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_move	list.h	/^void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	list.h	/^void list_move_tail(struct list_head *list,$/;"	f
+list_notempty	list.h	/^int list_notempty(const struct list_head *head)$/;"	f
+main	cdog.c	/^int main()$/;"	f
+main	cdogEar.c	/^int main(void)$/;"	f
+main	fifo.c	/^int main(int argc, char* argv[])$/;"	f
+netip	cdog.h	/^	char netip[32];		$/;"	m	struct:tagAimMsg
+next	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+ns	iksemel.h	/^	char *ns;$/;"	m	struct:ikspak_struct
+pAimMsg	cdog.h	/^}AimMsg,*pAimMsg;$/;"	v	typeref:struct:tagAimMsg
+pCat2DogIOMsgForFree	cdogEar.c	/^void*			pCat2DogIOMsgForFree=NULL;$/;"	v
+pClientInfo	cdogcore.h	/^	PCLIENTINFO			pClientInfo;$/;"	m	struct:__anon4
+pClientInfo	cdogcore.h	/^	PCLIENTINFO		pClientInfo;$/;"	m	struct:tagCAT2DOGIOMSG
+pCurCat2DogIOMsg	cdogcore.h	/^	PCAT2DOGIOMSG		pCurCat2DogIOMsg;$/;"	m	struct:tagCLIENTINFO
+pCurSendMsg	cdogcore.h	/^	PSENDMSG			pCurSendMsg;$/;"	m	struct:tagCLIENTINFO
+pDog2CatIOMsgForFree	cdogEar.c	/^void*		pDog2CatIOMsgForFree=NULL;$/;"	v
+pSndData	cdogcore.h	/^	unsigned char*		pSndData;		$/;"	m	struct:tagCLIENTINFO
+partial	iksemel.h	/^	char *partial;$/;"	m	struct:iksid_struct
+port	cdogEar.c	/^	unsigned short		port;$/;"	m	struct:tagCCS	file:
+prev	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+processIOThread	cdogEar.c	/^void* processIOThread(void *v)$/;"	f
+push_pop_test	fifo.c	/^void push_pop_test(size_t fifo_length)$/;"	f
+query	iksemel.h	/^	iks *query;$/;"	m	struct:ikspak_struct
+r_cursor	fifo.c	/^	int r_cursor;$/;"	m	struct:_FifoRing	file:
+recv	iksemel.h	/^	iksTRecv *recv;$/;"	m	struct:ikstransport_struct
+reset_stream	stream.c	/^void reset_stream(HSTREAM hstream)$/;"	f
+resource	iksemel.h	/^	char *resource;$/;"	m	struct:iksid_struct
+return_if_fail	typedef.h	56;"	d
+return_val_if_fail	typedef.h	59;"	d
+runflag	cdogEar.c	/^int runflag=1;$/;"	v
+s_addr	cdogNose.c	/^	in_addr_t	s_addr;$/;"	m	struct:in_addr	file:
+send	iksemel.h	/^	iksTSend *send;$/;"	m	struct:ikstransport_struct
+server	cdogEar.c	/^SERVER		server;$/;"	v
+server	iksemel.h	/^	char *server;$/;"	m	struct:iksid_struct
+show	iksemel.h	/^	enum ikshowtype show;$/;"	m	struct:ikspak_struct	typeref:enum:ikspak_struct::ikshowtype
+size	stream.c	/^		unsigned long size;$/;"	m	struct:tagStream	file:
+strIP	cdogEar.c	/^	char*				strIP;	$/;"	m	struct:tagCCS	file:
+strIP	cdogcore.h	/^	char				strIP[ 32 ];$/;"	m	struct:tagCLIENTINFO
+subtype	iksemel.h	/^	enum iksubtype subtype;$/;"	m	struct:ikspak_struct	typeref:enum:ikspak_struct::iksubtype
+syncword	stream.c	/^		unsigned long syncword;$/;"	m	struct:tagStream	file:
+tagAimMsg	cdog.h	/^struct tagAimMsg$/;"	s
+tagCAT2DOGIOMSG	cdogcore.h	/^typedef struct tagCAT2DOGIOMSG$/;"	s
+tagCCS	cdogEar.c	/^typedef struct tagCCS$/;"	s	file:
+tagCLIENTINFO	cdogcore.h	/^typedef	struct tagCLIENTINFO$/;"	s
+tagStream	stream.c	/^typedef struct tagStream$/;"	s	file:
+tcp_ack	cdogNose.c	/^	u_int32_t	tcp_ack;$/;"	m	struct:tcp_header	file:
+tcp_acknowledgement	cdogNose.c	/^	u_int32_t	tcp_acknowledgement;$/;"	m	struct:tcp_header	file:
+tcp_checksum	cdogNose.c	/^	u_int16_t	tcp_checksum;$/;"	m	struct:tcp_header	file:
+tcp_destination_port	cdogNose.c	/^	u_int16_t	tcp_destination_port;$/;"	m	struct:tcp_header	file:
+tcp_flags	cdogNose.c	/^	u_int8_t	tcp_flags;$/;"	m	struct:tcp_header	file:
+tcp_header	cdogNose.c	/^struct tcp_header$/;"	s	file:
+tcp_offset	cdogNose.c	/^	tcp_offset : 4;$/;"	m	struct:tcp_header	file:
+tcp_offset	cdogNose.c	/^	u_int8_t	tcp_offset : 4,$/;"	m	struct:tcp_header	file:
+tcp_protocol_packet_callback	cdogNose.c	/^void tcp_protocol_packet_callback$/;"	f
+tcp_reserved	cdogNose.c	/^	tcp_reserved : 4;$/;"	m	struct:tcp_header	file:
+tcp_reserved	cdogNose.c	/^	u_int8_t	tcp_reserved : 4,$/;"	m	struct:tcp_header	file:
+tcp_source_port	cdogNose.c	/^	u_int16_t	tcp_source_port;$/;"	m	struct:tcp_header	file:
+tcp_urgent_pointer	cdogNose.c	/^	u_int16_t	tcp_urgent_pointer;$/;"	m	struct:tcp_header	file:
+tcp_windows	cdogNose.c	/^	u_int16_t	tcp_windows;$/;"	m	struct:tcp_header	file:
+thread_pop	fifo.c	/^static void* thread_pop(void* param)$/;"	f	file:
+thread_push	fifo.c	/^static void* thread_push(void* param)$/;"	f	file:
+type	iksemel.h	/^	enum ikspaktype type;$/;"	m	struct:ikspak_struct	typeref:enum:ikspak_struct::ikspaktype
+uiCliGetMsgIndex	cdogEar.c	/^unsigned int 	uiCliGetMsgIndex=1;	$/;"	v
+uiCliGetMsgNextIndex	cdogEar.c	/^unsigned int 	uiCliGetMsgNextIndex=2;$/;"	v
+uiCliPutMsgIndex	cdogEar.c	/^unsigned int	uiCliPutMsgIndex=0;$/;"	v
+uiIoGetMsgIndex	cdogEar.c	/^unsigned int 	uiIoGetMsgIndex=0;$/;"	v
+uiPriOpt	cdogcore.h	/^	unsigned int		uiPriOpt;$/;"	m	struct:tagCLIENTINFO
+user	iksemel.h	/^	char *user;$/;"	m	struct:iksid_struct
+w_cursor	fifo.c	/^	int w_cursor;$/;"	m	struct:_FifoRing	file:
+x	iksemel.h	/^	iks *x;$/;"	m	struct:ikspak_struct

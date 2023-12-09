@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: iksemel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP243.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\base64.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\dom.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\filter.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\iks.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\ikstack.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\io-posix.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\jabber.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\md5.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\sax.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\sha.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\stream.c"
+"C:\Documents and Settings\Administrator\桌面\CuteCat\iksemel\utility.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP243.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP244.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /dll /incremental:yes /pdb:"Debug/iksemel.pdb" /debug /machine:I386 /def:".\iksemel.def" /out:"../bin/iksemel.dll" /implib:"../libs/iksemel.lib" /pdbtype:sept 
+".\Debug\base64.obj"
+".\Debug\dom.obj"
+".\Debug\filter.obj"
+".\Debug\iks.obj"
+".\Debug\ikstack.obj"
+".\Debug\io-posix.obj"
+".\Debug\jabber.obj"
+".\Debug\md5.obj"
+".\Debug\sax.obj"
+".\Debug\sha.obj"
+".\Debug\stream.obj"
+".\Debug\utility.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP244.tmp"
+<h3>Output Window</h3>
+Compiling...
+base64.c
+dom.c
+filter.c
+iks.c
+c:\documents and settings\administrator\桌面\cutecat\iksemel\iks.c(533) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\administrator\桌面\cutecat\iksemel\iks.c(562) : warning C4018: '<' : signed/unsigned mismatch
+ikstack.c
+io-posix.c
+jabber.c
+md5.c
+c:\documents and settings\administrator\桌面\cutecat\iksemel\md5.c(109) : warning C4018: '<' : signed/unsigned mismatch
+sax.c
+c:\documents and settings\administrator\桌面\cutecat\iksemel\sax.c(165) : warning C4018: '<' : signed/unsigned mismatch
+sha.c
+stream.c
+utility.c
+c:\documents and settings\administrator\桌面\cutecat\iksemel\utility.c(109) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\administrator\桌面\cutecat\iksemel\utility.c(118) : warning C4018: '==' : signed/unsigned mismatch
+c:\documents and settings\administrator\桌面\cutecat\iksemel\utility.c(123) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\administrator\桌面\cutecat\iksemel\utility.c(151) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+c:\documents and settings\administrator\桌面\cutecat\iksemel\io-posix.c(79) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+   Creating library ../libs/iksemel.lib and object ../libs/iksemel.exp
+
+
+
+<h3>Results</h3>
+iksemel.dll - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>
