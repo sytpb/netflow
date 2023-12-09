@@ -17,3 +17,6 @@ Pionner: refers to the pioneer mode, the packet capture conditions need to be sp
 2: client side
 
 ![image](https://github.com/sytpb/netflow/assets/12178686/a3bcdf22-4181-47d3-a914-336fecf00d5f)
+
+## 5. GUI 
+![image](https://github.com/sytpb/netflow/assets/12178686/4b35a19a-06dd-4d88-aac7-8903894b356d)
